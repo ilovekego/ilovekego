@@ -1,0 +1,79 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260">
+  <defs>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39FF14"/>
+      <stop offset="100%" stop-color="#00D9FF"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="260" rx="18" fill="#0D1117"/>
+
+  <g stroke="url(#neon)" fill="none" opacity="0.35">
+    <ellipse cx="400" cy="130" rx="155" ry="70"/>
+    <ellipse cx="400" cy="130" rx="245" ry="105"/>
+  </g>
+
+  <g transform="translate(400 130)">
+    <circle r="43" fill="#101B27" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+    <text x="0" y="-4" text-anchor="middle" font-family="monospace" font-size="13" font-weight="bold" fill="#39FF14">TECH</text>
+    <text x="0" y="14" text-anchor="middle" font-family="monospace" font-size="11" fill="#00D9FF">STACK</text>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 400 130" to="360 400 130" dur="18s" repeatCount="indefinite"/>
+
+    <g transform="translate(400 60)">
+      <circle r="27" fill="#111D29" stroke="#39FF14" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">JS</text>
+    </g>
+
+    <g transform="translate(555 130)">
+      <circle r="27" fill="#111D29" stroke="#00D9FF" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#00D9FF">NODE</text>
+    </g>
+
+    <g transform="translate(400 200)">
+      <circle r="27" fill="#111D29" stroke="#39FF14" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">PY</text>
+    </g>
+
+    <g transform="translate(245 130)">
+      <circle r="27" fill="#111D29" stroke="#00D9FF" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#00D9FF">DB</text>
+    </g>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 400 130" to="0 400 130" dur="24s" repeatCount="indefinite"/>
+
+    <g transform="translate(400 25)">
+      <circle r="19" fill="#111D29" stroke="#00D9FF" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D9FF">HTML</text>
+    </g>
+
+    <g transform="translate(635 130)">
+      <circle r="19" fill="#111D29" stroke="#39FF14" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" font-family="monospace" font-size="9" fill="#39FF14">GIT</text>
+    </g>
+
+    <g transform="translate(400 235)">
+      <circle r="19" fill="#111D29" stroke="#00D9FF" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D9FF">LINUX</text>
+    </g>
+
+    <g transform="translate(165 130)">
+      <circle r="19" fill="#111D29" stroke="#39FF14" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" font-family="monospace" font-size="9" fill="#39FF14">API</text>
+    </g>
+  </g>
+
+  <text x="400" y="252" text-anchor="middle" font-family="monospace" font-size="9" fill="#8B949E">VINNY KARANJA / SOFTWARE DEVELOPMENT</text>
+</svg>
