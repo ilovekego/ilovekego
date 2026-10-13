@@ -1,15 +1,6 @@
 
-<!-- TECH STACK -->
-<h2 align="center">⚡ Tech Stack</h2>
+## ⚡ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,mongodb,python,flask,git,github,linux,nginx,vscode&theme=dark&perline=7"
-       alt="Technology stack: HTML, CSS, JavaScript, Node.js, Express, MongoDB, Python, Flask, Git, GitHub, Linux, Nginx and VS Code"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-39FF14?style=for-the-badge&logo=html5&logoColor=black&labelColor=0D1117" alt="Frontend"/>
-  <img src="https://img.shields.io/badge/Backend-00D9FF?style=for-the-badge&logo=nodedotjs&logoColor=black&labelColor=0D1117" alt="Backend"/>
-  <img src="https://img.shields.io/badge/Database-39FF14?style=for-the-badge&logo=mongodb&logoColor=black&labelColor=0D1117" alt="Database"/>
-  <img src="https://img.shields.io/badge/Tools-00D9FF?style=for-the-badge&logo=git&logoColor=black&labelColor=0D1117" alt="Tools"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,mongodb,python,flask,git,github,linux,nginx,vscode&theme=dark&perline=7" alt="Technology stack icons" />
 </p>
