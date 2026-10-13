@@ -41,12 +41,29 @@ I enjoy learning how applications work, from frontend interfaces to APIs, databa
 
 ## Tech Stack
 
-<p align="center">
+<div align="center">
+
+  <img
+    src="./assets/tech-stack.svg"
+    width="100%"
+    alt="Animated rotating technology icons"
+  />
+
+  <br/>
+
   <img
     src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,mongodb,python,flask,git,github,linux,nginx,vscode&theme=dark&perline=7"
     alt="Technologies and development tools"
   />
-</p>
+
+  <br/><br/>
+
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=1800&pause=500&color=39FF14&center=true&vCenter=true&width=600&lines=HTML+%7C+CSS+%7C+JavaScript;Node.js+%7C+Express+%7C+MongoDB;Python+%7C+Flask+%7C+Git;Linux+%7C+Nginx+%7C+Deployment"
+    alt="Animated technology stack labels"
+  />
+
+</div>
 
 ## Featured Projects
 
